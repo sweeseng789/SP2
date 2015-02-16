@@ -270,6 +270,8 @@ void StudioProject::Update(double dt)
 	ss4 << camera.position.z;
 	cameraz = ss4.str();
 	camera.Update(dt);
+
+	std::cout << "Hello World" << std::endl;
 }
 
 //=========Rendering of Skybox to be done here=========//
